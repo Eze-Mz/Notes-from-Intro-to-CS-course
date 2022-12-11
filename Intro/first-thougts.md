@@ -27,6 +27,9 @@ Stored programs are a sequence of instructions inside a cumputer *built from pre
 (the interpreter -an special program- executes each instruction in order)
 
 ## Basic primitives
+```
+the primitive constructs in Python include literals (3.2, "abc") and  infix operators (+, /).
+```
 Turing showed that you can compute anything using 6 primitives:
 - Right: Move the Machine’s head to the right of the current square
 - Left: Move the Machine’s head to the left of the current square
@@ -54,6 +57,9 @@ Que algo sea entendible implica que luego de el procesamiento o entendimiento de
 La sintaxis puede describirse, es decir, las características que hacen comprensible al mensaje pueden analizarse. Por eso:
 `uno uno uno` no tiene sentido en ninguno de los dos lenguajes y `uno más uno` o `1+1` lo tiene en ambos. En un caso se trata de la combianción de *sustantivo + conjunción copulativa + sustanvivo* y *operando + operación + operando*.
 
+sintax
+:  the syntax of a language defones which strings of characters and symbols are well formed.
+
 static semantics
 : is wich syntactically valid strings have meaning 
 
@@ -64,3 +70,6 @@ semantics
 : is the meaning associated with a syntactically correct string of symbols with no static semantic errors.
 
 > In programming lenguages there is only one meaning **but may not be what the programmer intended**. Programs can not be ambiguous.
+
+# Program length
+A program for which the maximum running time is bounded bye the length of the program is said to run in **constant time**: n lines of code -> n units of time to run. Exists a constant k, such that the program is guaranteed to take no mora than k steps.
